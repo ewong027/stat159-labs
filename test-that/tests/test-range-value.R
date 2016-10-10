@@ -9,6 +9,8 @@ test_that("range works as expected", {
     
     expect_length(range_value(y), 1)
     expect_equal(range_value(y), NA_real_)
+    expect_length(range_value(y, na.rm = TRUE), 1)
+    expect_equal(range_value(y, na.rm = TRUE), 3)
 })
 
 test_that("range works as expected", {
