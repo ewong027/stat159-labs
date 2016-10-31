@@ -36,7 +36,7 @@ We look at the data set and study the relationship between TV advertising budget
 \end{equation}
 
 \begin{equation}
- H_{0}: \beta_1 \neq 0
+ H_{1}: \beta_1 \neq 0
 \end{equation}
 
 To test this, we can use a simple linear regression, where the equation is
